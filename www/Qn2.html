@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Creating a Quiz using JavaScript</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <script type="text/javascript" src="js/index.js"></script>
+</head>
+
+<body>
+    <div id="wrap">
+        <h1>Manchester United Quiz</h1>
+        
+        <img src="img/manu2012.jpg" class="photo"><br>
+        
+        <h3>What year did Manchester United last win the Premier League?</h3>
+            <input type="radio" name="q2" value="wrong" class="options">1995<br>
+            <input type="radio" name="q2" value="correct" class="options">2012<br>
+            <input type="radio" name="q2" value="wrong" class="options">2000<br>
+            
+        <button id="submitButton" onclick="checkqn2()">Submit</button>
+        
+        <div class="result" id="resultq2"></div>
+        
+        <a href="index.html" class="navButton" class="prevButton">Previous Question |</a> 
+        <a href="Qn3.html" class="navButton">Next Question</a> 
+        
+    </div>
+
+
+</body>
+</html>
